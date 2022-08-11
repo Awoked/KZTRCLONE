@@ -51,6 +51,12 @@ body{
     .productSlider{
         overflow: auto!important;
     }
+    .productSlider{
+        width: 80%;
+    }
+    .sliderCol{
+        width: 100%;
+    }
     .products{
         height: auto!important;
     }
