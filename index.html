@@ -46,8 +46,8 @@
                                 <div class="d-flex   align-items-center justify-content-center gap-5 flex-lg-row  flex-column ">
                                     <div class="d-flex flex-column align-items-lg-start align-items-center gap-3">
                                         <div class="d-flex align-items-end gap-2">
-                                            <h1 class="sliderTextHead m-0">VX10</h1>
-                                            <button class="btn border-2 sliderBtnText border border-dark rounded-pill">
+                                            <h1 class="sliderTextHead  m-0">VX10</h1>
+                                            <button class="btn  sliderBtnText border border-dark rounded-pill">
                                                 <span class="fw-light sliderBtnText">Şimdi </span>
                                                 <span class="fw-bold sliderBtnText"> Keşfet</span>
                                             </button>
@@ -67,10 +67,10 @@
                                 <div class="d-flex   align-items-center justify-content-center gap-5 flex-lg-row  flex-column ">
                                     <div class="d-flex flex-column align-items-lg-start align-items-center gap-3">
                                         <div class="d-flex align-items-end gap-2">
-                                            <h1 class="sliderTextHead m-0">Z3</h1>
-                                            <button class="btn border-2 sliderBtnText border border-dark rounded-pill">
-                                                <span class="fw-light sliderBtnText">Şimdi </span>
-                                                <span class="fw-bold sliderBtnText"> Keşfet</span>
+                                            <h1 class="fs-1 m-0">Z3</h1>
+                                            <button class="btn  sliderBtnText border  border-dark rounded-pill">
+                                                <span class="fw-light ">Şimdi </span>
+                                                <span class="fw-bold "> Keşfet</span>
                                             </button>
                                         </div>
                                         <div class="d-flex gap-1 flex-column">
@@ -98,11 +98,11 @@
                 <div class="col-12 bg-black products py-5">
                     <div class="row  h-100 d-flex flex-column flex-lg-row  align-items-center justify-content-around ">
                         <div class="col-4  text-light d-flex flex-column justify-content-center align-items-center pb-lg-0 pb-5">
-                            <h1 class="sliderText fs-2 fw-normal">Yeni</h1>
-                            <h3 class="fs-2 fw-normal">ÜRÜNLER</h3>
+                            <h1 class=" display-3 fw-normal">Yeni</h1>
+                            <h3 class="display-4 fw-normal">ÜRÜNLER</h3>
                             <button class="btn btn-light d-flex gap-1 bg-transparent rounded-pill">
-                                <span class="fw-light fs-18   text-light">DETAYLI</span>
-                                <span class="fw-bold fs-18  text-light">İNCELE</span>
+                                <span class="fw-light fs-2   text-light">DETAYLI</span>
+                                <span class="fw-bold fs-2 text-light">İNCELE</span>
                             </button>
                         </div>
                         <div class="col-8 d-flex sliderCol">
@@ -199,31 +199,34 @@
                 <div class="col-12 bg-white products py-5 ">
                     <div class="row   h-100 d-flex flex-column flex-lg-row  align-items-center justify-content-around ">
                         <div class="col-4  text-black d-flex flex-column justify-content-center align-items-center pb-lg-0 pb-5">
-                            <h1 class="sliderText fs-2 fw-normal text-center">BİZİ</h1>
-                            <h3 class="fs-2 fw-normal text-center">TERCİH EDENLER</h3>
-                            <button class="btn btn-dark d-flex gap-1 bg-transparent rounded-pill">
-                                <span class="fw-light fs-18   text-black">DETAYLI</span>
-                                <span class="fw-bold fs-18  text-black">İNCELE</span>
+                            <h1 class="display-3 fw-normal text-center">BİZİ</h1>
+                            <h3 class=" display-4 fw-normal text-center">TERCİH EDENLER</h3>
+                            <button class="btn btn-dark p-2 d-flex gap-1 bg-transparent rounded-pill">
+                                <span class="fw-light fs-2   text-black">DETAYLI</span>
+                                <span class="fw-bold fs-2 text-black">İNCELE</span>
                             </button>
                         </div>
-                        <div class="col-8  d-flex align-items-center justify-content-center">
+                        <div class="col-8 lastSliderCol  d-flex align-items-center justify-content-center">
                             <div class="lastSlider position-relative d-flex justify-content-center align-items-center overflow-hidden ">
                                 
                                 <div class="sliderCard d-flex flex-column justify-content-center align-items-center">
-                                    <img src="https://www.kzturkiye.com/Content/images/bosphoroots%20mobil.jpg"  class="img-fluid"alt="">
+                                    <img src="https://www.kzturkiye.com/Content/images/bosphoroots%20mobil.jpg"  alt="">
                                 </div>
                                 <div class="sliderCard">
-                                    <img src="https://www.kzturkiye.com/Content/images/ZAFER%20S%20MBL.jpg"  class="img-fluid" alt="">
+                                    <img src="https://www.kzturkiye.com/Content/images/ZAFER%20S%20MBL.jpg"   alt="">
                                 </div>
                                 <div class="sliderCard">
-                                    <img src="https://www.kzturkiye.com/Content/images/canan%20mobil.jpg"  class="img-fluid" alt="">
+                                    <img src="https://www.kzturkiye.com/Content/images/canan%20mobil.jpg"   alt="">
                                 </div>
                                 <div class="sliderCard">
-                                    <img src="https://www.kzturkiye.com/Content/images/MELISA%20MOBİL.jpg" class="img-fluid" alt="">
+                                    <img src="https://www.kzturkiye.com/Content/images/MELISA%20MOBİL.jpg"  alt="">
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-12">
+
                 </div>
             </main>
             <br>
@@ -247,6 +250,7 @@
                 infinite: true,
                 slidesToShow: 2,
                 slidesToScroll: 1,
+                variableWidth: true,
                 prevArrow: '<button class="btn border-0 priv_arrow prev justify-content-start" type="button" ><i class="fa-solid fa-angle-left text-dark"></i><span class="visually-hidden">Previous</span></button>',
                 nextArrow: '<button class="btn border-0 next_arrow prev  justify-content-end" type="button" ><i class="fa-solid fa-angle-right text-dark"></i><span class="visually-hidden">Previous</span></button>'
             });
